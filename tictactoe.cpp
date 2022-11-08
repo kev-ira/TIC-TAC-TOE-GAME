@@ -18,7 +18,7 @@ int main(){
         if (turnCounter%2 == 0){
             cout << "Player 1's Turn. Please enter the number of the space you would like to place an X\n";
             cin >> x;
-            //If a player has alreadu placed something in given space, make the player choose another one
+            //If a player has already placed something in given space, make the player choose another one
             while(arr[x] != -1){
                 cout << "This space is alreay taken. Choose another space\n";
                 cin >> x;
